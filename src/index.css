@@ -1,0 +1,50 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: #213547;
+	background-color: #ffffff;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+input[type='search'],
+input[type='date'] {
+	width: 100%;
+	border-radius: 8px;
+	border: 1px solid #caced1;
+	box-sizing: border-box;
+	padding: 0.5rem;
+	height: 100%;
+}
+
+input[type='search']::placeholder {
+	color: #c9c9c9;
+}
+
+input[type='date'] {
+	cursor: pointer;
+}
+
+input[type='search'] {
+	padding-left: 2rem;
+}
+
+.sr-only:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}

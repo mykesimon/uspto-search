@@ -1,0 +1,58 @@
+.searchResults {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem 0;
+}
+
+.searchResults h2 {
+	font-size: 2.2em;
+}
+
+.PatentListTable {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.PatentListTable th {
+	/* background-color: #f2f2f2; */
+	border-bottom: 1px solid #e7e7e7;
+	padding: 12px;
+	padding-left: 0;
+	text-align: left;
+	font-size: 0.8em;
+	color: #727c85;
+	font-weight: normal;
+}
+
+/* Alternate row colors for better readability */
+.PatentListTable tr:nth-child(even) {
+	background-color: #f9faff;
+}
+
+/* Style for table cells */
+.PatentListTable td {
+	border-bottom: 1px solid #e7e7e7;
+	padding: 10px;
+	padding-left: 0;
+	font-size: 0.9em;
+}
+
+.PatentListTable td:first-child {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.PatentListTable td:first-child:hover {
+	text-decoration: underline;
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+	.PatentListTable {
+		width: 100%;
+		margin-bottom: 20px;
+		overflow-x: auto;
+		display: block;
+	}
+}
