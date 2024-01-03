@@ -1,6 +1,6 @@
-## Assumptions
+## Description
 
-To create an application that searchs patents from the USPTO API and displays them in a table format. This UI should have a single search box and two filters:
+An application that searchs patents from the USPTO API and displays them in a table format. This UI should have a single search box and two filters:
 
 - `Publication from date`
 - `Publication to date`
